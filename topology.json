@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-06-30T18:10:00.000000Z",
+  "router": {
+    "host": "127.0.0.1",
+    "port": 18080,
+    "url": "http://127.0.0.1:18080",
+    "monitor_interval_seconds": 2.0,
+    "gpu_request_timeout_seconds": 300.0,
+    "dispatch_wait_seconds": 285.0
+  },
+  "miners": [
+    {
+      "miner_id": "159",
+      "hotkey": "verathos",
+      "coldkey": "beam",
+      "slots": [
+        {
+          "miner_id": "159",
+          "hotkey": "verathos",
+          "coldkey": "beam",
+          "slot_id": "4c24a85d-3bef-426b-af3a-b2fa83a590e3",
+          "slot_index": 1,
+          "host": "0.0.0.0",
+          "port": 5000,
+          "url": "http://0.0.0.0:5000"
+        },
+        {
+          "miner_id": "159",
+          "hotkey": "verathos",
+          "coldkey": "beam",
+          "slot_id": "2b1236af-ae78-4eed-9249-84e290a4ef6f",
+          "slot_index": 2,
+          "host": "0.0.0.0",
+          "port": 5001,
+          "url": "http://0.0.0.0:5001"
+        },
+        {
+          "miner_id": "159",
+          "hotkey": "verathos",
+          "coldkey": "beam",
+          "slot_id": "3a02603e-1c64-42c8-aa2a-18f37df0813f",
+          "slot_index": 3,
+          "host": "0.0.0.0",
+          "port": 5002,
+          "url": "http://0.0.0.0:5002"
+        },
+        {
+          "miner_id": "159",
+          "hotkey": "verathos",
+          "coldkey": "beam",
+          "slot_id": "90a9c15e-c46d-48f2-8616-ef9ea72ddc37",
+          "slot_index": 4,
+          "host": "0.0.0.0",
+          "port": 5003,
+          "url": "http://0.0.0.0:5003"
+        },
+        {
+          "miner_id": "159",
+          "hotkey": "verathos",
+          "coldkey": "beam",
+          "slot_id": "2c2a6f1e-7c59-4598-835f-be332058513b",
+          "slot_index": 5,
+          "host": "0.0.0.0",
+          "port": 5004,
+          "url": "http://0.0.0.0:5004"
+        }
+      ]
+    }
+  ],
+  "gpus": [
+    {
+      "gpu_id": "gpu-vast-43247268-0",
+      "host": "127.0.0.1",
+      "port": 26000,
+      "url": "http://127.0.0.1:26000",
+      "max_jobs": 1,
+      "priority": 0,
+      "metadata": {
+        "provider": "local",
+        "gpu_name": "NVIDIA_A100-SXM4-80GB",
+        "vram_gb": "80",
+        "model": "Qwen/Qwen3.6-27B",
+        "quant": "FP8",
+        "max_context_len": 262144,
+        "vast_instance_id": "43252905",
+        "public_ip": "80.188.223.202",
+        "ssh_port": "11006",
+        "backend": "mock",
+        "notes": "Backend pending verallm_merged/OpenAI-compatible inference engine. Running mock mode."
+      }
+    }
+  ]
+}
